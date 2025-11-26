@@ -1,6 +1,6 @@
 #' Prints the Sounds an Animal Makes
 #'
-#' Prints the sound that an animal makes.
+#' Prints the sound that an animal makes, by creating a wrapper around [paste0()]
 #'
 #' @param animal A character vector of length 1
 #' @param sound A character vector of length 1
