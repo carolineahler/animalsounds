@@ -20,11 +20,13 @@ animal_sounds <- function(animal, sound) {
 
 
 check_arg <- function(arg, n = 1) {
-  if (!rlang::is_character(arg, n = 1)) {
-    cli::cli_abort(c("{.var arg} must be a single string",
-                     "i" = "It was {.type {arg}} of length {length(arg)} instead."))
+  if (!rlang::is_character(arg, n = n)) {
+    cli::cli_abort(c("{.var {rlang::caller_arg(arg)}} must be a character vector of length {n}",
+                     "i" = "It was {.type {arg}} of length {length(arg)} instead."),
+                   call = rlang::caller_env())
   }
 
 }
+
 
 
