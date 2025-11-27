@@ -4,7 +4,7 @@
 \alias{animal_sounds}
 \title{Prints the Sounds an Animal Makes}
 \usage{
-animal_sounds(animal, sound)
+animal_sounds(animal, sound = NULL)
 }
 \arguments{
 \item{animal}{A character vector of length 1}
@@ -18,6 +18,6 @@ A string
 Prints the sound that an animal makes, by creating a wrapper around \code{\link[=paste0]{paste0()}}
 }
 \examples{
-animals_sounds("dog", "bark")
+animal_sounds("cow", "moo")
 
 }

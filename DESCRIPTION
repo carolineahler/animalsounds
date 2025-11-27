@@ -13,6 +13,8 @@ URL: https://github.com/carolineahler/animalsounds
 BugReports: https://github.com/carolineahler/animalsounds/issues
 Imports: 
     cli,
+    dplyr,
+    magrittr,
     rlang
 Depends: 
     R (>= 3.5)

@@ -7,7 +7,7 @@
 #' @returns A string
 #' @export
 #'
-#' @examples animals_sounds("dog", "bark")
+#' @examples animal_sounds("cow", "moo")
 #'
 animal_sounds <- function(animal, sound = NULL) {
 
@@ -33,6 +33,19 @@ check_arg <- function(arg, n = 1) {
                    class = "error_wrong_length_or_not_string")
   }
 
+}
+
+
+#' Head of a dataframe
+#'
+#' Slices a data frame
+#'
+#' @param data A data frame
+#' @param n An integer
+#' @export
+first_n <- function(data, n) {
+  data %>%
+    dplyr::slice_head(n = n)
 }
 
 
