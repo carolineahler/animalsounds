@@ -6,9 +6,9 @@
 \title{Farm Animal Sounds}
 \format{
 A data frame with three rows and two columns:
-\itemize{
-\item \code{animal}: A string giving the animal name
-\item \code{sound}: A string for the animal sound
+\describe{
+\item{\code{animal}}{A string giving the animal name}
+\item{\code{sound}}{A string giving the animal sound}
 }
 }
 \usage{
