@@ -1,8 +1,9 @@
 Package: animalsounds
-Title: What the Package Does (One Line, Title Case)
+Title: Prints Animals and Sounds
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+    person("Caroline", "Ahler", , "first.last@example.com", role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0000-0000-00000"))
 Description: What the package does (one paragraph).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
