@@ -8,7 +8,7 @@
 <!-- badges: end -->
 
 The goal of animalsounds is to give the sound of an animal of your
-choice.
+choice. juhuu
 
 ## Installation
 

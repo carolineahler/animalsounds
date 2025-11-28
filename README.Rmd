@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of animalsounds is to give the sound of an animal of your choice. 
+The goal of animalsounds is to give the sound of an animal of your choice. juhuu 
 
 ## Installation
 
